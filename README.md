@@ -47,6 +47,10 @@ npm install
 3. Run the SQL migration in your Supabase SQL editor:
    - Copy the contents of `supabase/migrations/20240929152442_expenses.sql`
    - Execute it in the SQL editor
+4. (Optional) Enable Google OAuth:
+   - Go to Authentication > Providers
+   - Enable Google and add your Google OAuth credentials
+   - Add your domain to authorized domains
 
 ### 4. Environment Variables
 
